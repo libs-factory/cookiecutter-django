@@ -11,7 +11,8 @@
   "features": {
     "ghcr.io/infras-factory/devcontainer-features/riso-bootstrap:1.1.10": {
       "shellEnhancementLevel": "poweruser"
-    }
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker": {}
   },
   "postCreateCommand": "/bin/bash .devcontainer/scripts/post-create.sh",
   "mounts": [
